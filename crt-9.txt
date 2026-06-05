@@ -1,0 +1,7 @@
+#write a python program to read two integer values as input and find the largest number
+a= int(input("Enter first integer:"))
+b= int(input("Enter second integer:"))
+if(a>b):
+    print(f"{a} is greatest number")
+else:
+    print(f"{b} is greatest number")

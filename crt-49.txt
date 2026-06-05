@@ -1,0 +1,6 @@
+List=["Python ","java","c++","javascript"]
+print("The original list is:",List)
+List.append("Ruby")
+print("The List after appending is:",List)
+List.append("SQL")
+print("The List after appending is:",List)

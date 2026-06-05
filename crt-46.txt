@@ -1,0 +1,7 @@
+#using while
+cartoons=["tom and jerry", "doraemon","shinchan","chota beem","motu pathulu"]
+
+i=0
+while i<len(cartoons):
+    print(cartoons[i])
+    i+=1

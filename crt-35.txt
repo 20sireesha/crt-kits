@@ -1,0 +1,5 @@
+2.keyword argument:--
+def show(name,age):
+    print(name,age)
+show(name="Kumar", age= 62)
+

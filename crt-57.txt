@@ -1,0 +1,10 @@
+lang={'python','java','c','c++','sql','c'}
+print(lang)
+lang.add('Ruby')
+ui={'HTML','Express Js','Angular'}
+lang.update(ui)
+print(lang)
+lang.remove('java')
+print(lang)
+lang.discard('HTML')
+print(lang)

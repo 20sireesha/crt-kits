@@ -1,0 +1,9 @@
+--------------indexing lists--------------
+cartoons=["tom and jerry", "doraemon","shinchan","chota beem","motu pathulu"]
+#with index
+for i in range(len(cartoons)):
+    print(f"index {i}:{cartoons[i]}")
+print("------------------------------")
+#without index
+for i in cartoons:
+    print(i)

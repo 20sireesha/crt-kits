@@ -1,0 +1,6 @@
+printStd={
+    101:'Scott',102:'Miller',103:'Adams',104:'James',105:'David'
+}
+print(Std)
+Std[106]='xyz'
+print(Std)

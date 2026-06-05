@@ -1,0 +1,8 @@
+#write a python program to read integer value as input from the user and check whether it is positive or negative or zero
+num=int(input("Enter a number:"))
+if(num>0):
+    print(f"{num} is positive,")#print("number is positive") here if we want num then only we use f
+elif(num<0):
+    print(f"{num} is negative.")
+else:
+    print(f"{num} is zero.")

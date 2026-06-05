@@ -1,0 +1,7 @@
+3)default argumnets:
+
+    def show(name,age=19):
+       print(name,age)
+   show(name:"siri", age:19)
+
+
