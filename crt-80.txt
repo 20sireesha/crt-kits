@@ -1,0 +1,9 @@
+Price=list(map(int,input('Enter the Price:').split()))
+new_list=[]
+for i in Price:
+    if i>1000:
+        new_list.append(i)
+print(new_list)
+
+Price=list(map(int,input('Enter the Price:').split()))
+print([i for i in Price if i>1000])

@@ -1,0 +1,5 @@
+Str="       Python  Program           "
+print(Str.strip())
+print(Str.rstrip())
+print(Str.lstrip())
+print(Str.replace(" ",''))

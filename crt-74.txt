@@ -1,0 +1,5 @@
+Str="siri@oracle.in"
+a=Str.find('@')
+d=Str.find('.')
+print(Str[0:a])
+print(Str[a+1:d])

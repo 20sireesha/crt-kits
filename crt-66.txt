@@ -1,0 +1,7 @@
+Std={
+    101:'Scott',102:'Miller',103:'Adams',104:'James',105:'David'
+}
+Std.pop(103)
+print(Std)
+Std.pop(104,'Adams')
+print(Std)

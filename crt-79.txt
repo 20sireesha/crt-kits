@@ -1,0 +1,8 @@
+Queue=['Arjun','Swathi','Rakesh']
+print(Queue)
+Queue.append('Nikil')
+print(Queue)
+Queue.pop(0)
+print(Queue)
+Queue.insert(1,'Raji')
+print(Queue)
