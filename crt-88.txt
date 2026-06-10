@@ -1,0 +1,4 @@
+#least 3
+Score=list(map(int,input("Enter the score:").split()))
+new_list=sorted(Score,reverse='True')
+print(f"least 3: {new_list}  | least Scorer : {new_list[-3:]}")

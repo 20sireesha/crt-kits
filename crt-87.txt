@@ -1,0 +1,4 @@
+#top 3
+Score=list(map(int,input("Enter the score:").split()))
+new_list=sorted(Score,reverse='True')
+print(f"Top 3: {new_list}  | Top Scorer : {new_list[:3]}")

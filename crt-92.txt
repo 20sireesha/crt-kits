@@ -1,0 +1,4 @@
+message=list(map(str,input("Enter the message:").split()))
+for i in message:
+    if i.isdigit():
+        print(i)

@@ -1,0 +1,2 @@
+ifsc=list(map(str,input()))
+print('Valid IFSC CODE'if len(ifsc)==11 ifsc[:4].isalpha())

@@ -1,0 +1,3 @@
+Slots=list(map(str,input("Enter the Booked slots:").split()))
+Time_slots=input("Enter the requested slots: ")
+print(" Slots Already booked" if Time_slots in Slots else "Slots are available")
