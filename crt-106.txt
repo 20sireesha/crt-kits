@@ -1,0 +1,9 @@
+print('Progrsm starts')
+a=10
+print("a=",a)
+try:
+    print(a/0)
+except ZeroDivisionError as e:
+    print("Not Posiible to divide with zero if u divide it gives",e)
+print('Program Ends')
+

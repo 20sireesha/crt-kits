@@ -1,0 +1,17 @@
+scores=[85,90,78,92,88]
+
+#method 1:for loop with range
+for i in range(len(scores)):
+    print(f"scores[{i}] = {scores[i]}")
+    
+    
+#mthod 2:
+for score in scores:print(score)
+
+#method3:enumerate(index+value)
+for idx,val in enumerate(scores):
+    print(f"Index {idx} -> {val}")
+    
+    
+#method4:list comprehenssion
+double = [x+2 for x in scores]

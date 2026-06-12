@@ -1,0 +1,9 @@
+class Duck:
+    def walk(self):
+        print("thapak thapak thapak thapak")
+
+class Horse:
+    def walk(self):
+        print("Thbdak Thbdak Thbdak Thbdak")
+def myfunction(obj):
+    obj.walk()

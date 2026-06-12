@@ -1,0 +1,11 @@
+def selection_sort(arr):
+    n=len(arr)
+    for i in range(n):
+        min_idex=i
+        for j in range(i+1,n):
+            if arr[j]<arr[min_idex]:
+                min_idex=j
+        arr[i],arr[min_idex]=arr[min_idex],arr[i]
+    return arr
+arr=[67,89,23,29,40,83,10]
+print(selection_sort(arr))

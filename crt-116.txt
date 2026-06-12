@@ -1,0 +1,11 @@
+import numpy as np 
+Zero=np.array(10)
+print(Zero)
+print(type(Zero))
+print("Dimension:",Zero.ndim)
+print("Memory:",Zero.nbytes)
+two=np.array([[12,24,36],[48,60,90]])
+print(two)
+print(type(two))
+print("Dimension:",two.ndim)
+print("Memory:",two.nbytes)
