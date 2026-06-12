@@ -1,0 +1,25 @@
+class Employee():
+    def __init__(self,empname,empid,job,salary,dept):
+        print("Employee object is created...!")
+        self.empname=empname
+        self.empid=empid
+        self.job=job
+        self.salary=salary
+        self.dept=dept
+        print("----------------")
+def details(self):
+    print(f"empname is {self.empname}")
+    print(f"empid is {self.empid}")
+    print(f"job is {self.job}")
+    print(f"salary is {self.salary}")
+    print(f"Dept is {self.dept}")
+e1=Employee('Tharuna',4224,'DA',100000,'Techieee')
+details(e1)
+e2=Employee('Poojitha',4232,'PE',20000,'Techieee')
+details(e2)
+e3=Employee('Sumaya',4229,'Dev',50000,'Hr')
+details(e3)
+e4=Employee('Madhavi',4236,'Manager',65000,'Hr')
+details(e4)
+e5=Employee('Prasanna',4235,'SE',55000,'Techieee')
+details(e5)

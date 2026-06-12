@@ -1,0 +1,22 @@
+class Mobile():
+    def __init__(self,brand,price,color):
+        print("Mobile object is created...!")
+        self.brand=brand
+        self.price=price
+        self.color=color
+        print("----------------")
+def details(self):
+    print("-------------")
+    print(f"brand is {self.brand}")
+    print(f"price is {self.price}")
+    print(f"color is {self.color}")
+m1=Mobile('realme',23000,'grey')
+details(m1)
+m2=Mobile('vivo',18000,'blue')
+details(m2)
+m3=Mobile('oppo',30000,'black')
+details(m3)
+m4=Mobile('iphone',150000,'white')
+details(m4)
+m5=Mobile('samsung',60000,'purple')
+details(m5)
